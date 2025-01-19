@@ -152,6 +152,9 @@
 // Credits page
 #define CREDITS 1 // Feel free to disable it for your own usage :D
 
+// Time tools
+#define TIME_TOOLS 1
+
 // Advanced
 #define BUTTON_TASK_DELAY 60 // In ms, lower means faster button detection but more cpu usage
 #define TIME_FOR_WATCHFACE_TO_SHOW_MS 2000
