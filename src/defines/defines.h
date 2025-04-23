@@ -127,6 +127,11 @@ static const WiFiCred* wifiCredStatic[] = {
 #include "../ui/places/clockDebug/clockDebug.h"
 #include "../ui/places/gitDebug/gitDebug.h"
 #endif
+#if TIME_TOOLS
+#include "../ui/places/timeTools/stopwatch.h"
+#include "../ui/places/timeTools/timer.h"
+#include "../ui/places/timeTools/timeToolsMenu.h"
+#endif
 #include "../ui/places/watchfaceSelector/watchfaceSel.h"
 #if BOOK
 #include "../ui/places/book/bookUi.h"

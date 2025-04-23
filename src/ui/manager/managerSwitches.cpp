@@ -23,6 +23,19 @@ void switchSettingsMenu()
     generalSwitch(settingsMenu);
 }
 
+void switchTimeToolsMenu()
+{
+    generalSwitch(timeToolsMenu);
+}
+void switchStopwatch()
+{
+    generalSwitch(stopwatch);
+}
+void switchTimer()
+{
+    generalSwitch(timer);
+}
+
 void switchGamesMenu() {
     generalSwitch(gamesMenu);
 }

@@ -177,6 +177,27 @@ void loopManager()
         managerLaunchFunc(textDialog, NULL, useButtonBlank);
         break;
     }
+    case timeToolsMenu:
+    {
+#if TIME_TOOLS
+        managerLaunchFunc(timeToolsMenu, initTimeTools, loopMenu);
+#endif
+        break;
+    }
+    case stopwatch:
+    {
+#if TIME_TOOLS
+        managerLaunchFunc(stopwatch, initStopwatch, loopStopwatch, exitStopwatch);
+#endif
+        break;
+    }
+    case timer:
+    {
+#if TIME_TOOLS
+        managerLaunchFunc(timer, initTimer, loopTimer, exitTimer);
+#endif
+        break;
+    }    
     case weatherMenu:
     {
 #if WEATHER_INFO

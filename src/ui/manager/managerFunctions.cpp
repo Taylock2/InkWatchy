@@ -5,6 +5,12 @@ void initMainMenu()
 {
     int count = -1;
     entryMenu buttons[11];
+#if TIME_TOOLS
+    {
+        count = count + 1;
+        buttons[count] = {"Time tools", getImg("timetools/stopwatch"), switchTimeToolsMenu};
+    }
+#endif
 #if CALENDAR
     {
         count = count + 1;

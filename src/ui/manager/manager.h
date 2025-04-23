@@ -11,6 +11,9 @@ typedef enum
     mainMenu,
     debugMenu,
     settingsMenu,
+    timeToolsMenu,
+    stopwatch,
+    timer,
     generalDebug,
     clockDebug,
     batteryDebug,
@@ -101,6 +104,12 @@ void switchPong();
 #if TETRIS
 void switchTetris();
 #endif
+#if TIME_TOOLS
+void switchTimeToolsMenu();
+void switchStopwatch();
+void switchTimer();
+#endif
+
 #if CREDITS
 void switchCredits();
 #endif
